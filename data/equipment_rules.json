@@ -1,0 +1,35 @@
+[
+  {
+    "error_code": "E-17",
+    "symptom": "low steam pressure",
+    "first_checks": [
+      "Confirm boiler temperature reached operating range.",
+      "Check if steam wand tip is blocked and clean if needed.",
+      "Ensure water tank or inlet is not empty."
+    ],
+    "likely_cause": "Steam wand blockage or boiler not fully heated.",
+    "escalation_rule": "Escalate if pressure stays low after cleaning and reheating for 10 minutes."
+  },
+  {
+    "error_code": "E-08",
+    "symptom": "grinder not starting",
+    "first_checks": [
+      "Verify hopper is seated and safety switch is engaged.",
+      "Check for bean jam in burr entrance.",
+      "Power cycle grinder once."
+    ],
+    "likely_cause": "Safety lock not engaged or bean jam.",
+    "escalation_rule": "Escalate if motor hum persists after jam removal."
+  },
+  {
+    "error_code": "E-21",
+    "symptom": "water flow too slow",
+    "first_checks": [
+      "Run plain-water flush without portafilter.",
+      "Inspect inlet hose for kinks.",
+      "Check if water filter replacement is due."
+    ],
+    "likely_cause": "Clogged filter or restricted inlet.",
+    "escalation_rule": "Escalate if slow flow continues after filter replacement."
+  }
+]

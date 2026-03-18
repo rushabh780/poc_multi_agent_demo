@@ -1,0 +1,50 @@
+[
+  {
+    "order_id": "CF-1001",
+    "customer_name": "Nina",
+    "items": [
+      "2 x Cappuccino",
+      "1 x Blueberry Muffin"
+    ],
+    "order_status": "completed",
+    "issue": "none",
+    "priority": "low",
+    "next_action": "No action needed. Thank customer if they return."
+  },
+  {
+    "order_id": "CF-1002",
+    "customer_name": "Arjun",
+    "items": [
+      "1 x Iced Latte",
+      "1 x Vegan Cookie"
+    ],
+    "order_status": "complaint-open",
+    "issue": "Drink was delivered without oat milk preference applied.",
+    "priority": "medium",
+    "next_action": "Offer free remake and apply one loyalty credit."
+  },
+  {
+    "order_id": "CF-1003",
+    "customer_name": "Elena",
+    "items": [
+      "1 x Flat White",
+      "1 x Croissant"
+    ],
+    "order_status": "delayed",
+    "issue": "Order waited 18 minutes due to grinder calibration reset.",
+    "priority": "high",
+    "next_action": "Apologize, offer refund or voucher, and log equipment delay note."
+  },
+  {
+    "order_id": "CF-1004",
+    "customer_name": "Marcus",
+    "items": [
+      "1 x Americano",
+      "1 x Takeaway Mug"
+    ],
+    "order_status": "return-requested",
+    "issue": "Takeaway mug lid arrived cracked.",
+    "priority": "medium",
+    "next_action": "Confirm damage photo and replace mug under return policy."
+  }
+]
